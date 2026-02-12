@@ -1,1 +1,4 @@
-This script allows you to independently publish images to any Pixelfed instance. The publishing parameters (image path and name, post text, alt-text, nsfw flag, and econtent warning text) are taken from a dedicated file. Only the first parameter is required. The script automatically generates the alt text if it isn't present, but this option can be cumbersome on some computers. Once publishing is complete, the line containing the instructions is deleted from lfile, and the original image is archived in a directory below the bot's directory.
+This script allows you to independently publish images to any Pixelfed instance.
+The publishing parameters (image path and name, post text, alt-text, nsfw flag, and econtent warning text) are taken from a dedicated file (queue.csv). Only the first parameter is required.
+The script automatically generates the alt text if it isn't present, but this option can be cumbersome on some computers.
+Once publishing is complete, the line containing the instructions is deleted from lfile, and the original image is archived in a directory below the bot's directory.
